@@ -31,7 +31,7 @@ move  = input("A skelton is attacking! Lets run away! Which way should we go : L
 
 if(move == "left"):
     move = input("Great! We need to swim across to the next island. Appears to be a storm coming through. Should we wait or swim? ").lower()
-    if(move !="swim"):
+    if(move =="wait"):
         move = input("Great! I see few boats. Which one should we board? What color boat should we board? ").lower()
         if(move =="yellow"):
             print("Great you escaped! You win")
